@@ -30,7 +30,7 @@ if (utilizationRate <= kink) {
 在当前的 RealDAO 系统中，相关系数的默认值为：
 
 ```
-baseRate = 0
+baseRate = 0.01
 m = 0.05
 j = 1.09
 kink = 0.8
