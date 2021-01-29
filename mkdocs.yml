@@ -1,0 +1,50 @@
+site_name: RealDAO Documents
+theme:
+  name: material
+  highlightjs: true
+  features:
+    - navigation.tabs
+markdown_extensions:
+  - admonition
+nav:
+  - Welcome: index.md
+  - Protocol:
+      - Introduction: protocol/introduction.md
+      - Technical Architecture: protocol/technical.md
+      - Economics: protocol/economics.md
+      - Decentrality: protocol/decentrality.md
+  - App User Manual:
+      - Galance: app/galance.md
+      - Connect Wallet: app/connect.md
+      - Lending: app/lending.md
+      - Liquidating: app/liquidating.md
+      - Mining: app/mining.md
+  - Developers:
+      - Quick Start: developers/quick-start.md
+      - SDK: developers/javascript-sdk.md
+      - API Reference:
+          - ChainlinkPriceOracle: developers/apis/ChainlinkPriceOracle.md
+          - Council: developers/apis/Council.md
+          - Democracy: developers/apis/Democracy.md
+          - DOL: developers/apis/DOL.md
+          - HDOL: developers/apis/HDOL.md
+          - HDS: developers/apis/HDS.md
+          - HDSDistributor: developers/apis/HDSDistributor.md
+          - HErc20: developers/apis/HErc20.md
+          - HEther: developers/apis/HEther.md
+          - InterestRateModel: developers/apis/InterestRateModel.md
+          - MarketController: developers/apis/MarketController.md
+          - Orchestrator: developers/apis/Orchestrator.md
+          - ProtocolReporter: developers/apis/ProtocolReporter.md
+          - Supreme: developers/apis/Supreme.md
+      - Error Codes: developers/error-codes.md
+      - Liquidation Service: developers/liquidation-service.md
+      - Contracts:
+          - Mainnet: contracts/mainnet.md
+          - Kovan: contracts/kovan.md
+  # - Security:
+  #     - Audit: security/audit.md
+  - Governance:
+      - Introduction: governance/index.md
+  - Getting Involved:
+      - Introduction: getting-involved/index.md
