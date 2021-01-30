@@ -1,6 +1,7 @@
 site_name: RealDAO Documents
 theme:
   name: material
+  favicon: images/favicon.ico
   highlightjs: true
   features:
     - navigation.tabs
