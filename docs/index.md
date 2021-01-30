@@ -6,4 +6,4 @@
 `DOL`与`DAI`类似，都是去中心化、无需许可的基于加密资产担保的美元锚定货币，可以在全世界范围内通过加密数字货币钱包使用。
 `DOL`与`DAI`的详细对比可以看[这里](./protocol/introduction)。
 
-[开始体验](http://app.realdao.finance)
+[开始体验](http://app.realdao.finance){: .md-button .md-button--primary }

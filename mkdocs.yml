@@ -1,4 +1,4 @@
-site_name: RealDAO Documents
+site_name: RealDAO
 theme:
   name: material
   favicon: images/favicon.ico
@@ -7,6 +7,18 @@ theme:
     - navigation.tabs
 markdown_extensions:
   - admonition
+  - attr_list
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/github
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/medium
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/telegram
+      link: https://twitter.com/squidfunk
 nav:
   - Welcome: index.md
   - Protocol:
@@ -14,12 +26,12 @@ nav:
       - Technical Architecture: protocol/technical.md
       - Economics: protocol/economics.md
       - Decentrality: protocol/decentrality.md
-  - App User Manual:
-      - Galance: app/galance.md
-      - Connect Wallet: app/connect.md
-      - Lending: app/lending.md
-      - Liquidating: app/liquidating.md
-      - Mining: app/mining.md
+  #   - App User Manual:
+  #       - Galance: app/galance.md
+  #       - Connect Wallet: app/connect.md
+  #       - Lending: app/lending.md
+  #       - Liquidating: app/liquidating.md
+  #       - Mining: app/mining.md
   - Developers:
       - Quick Start: developers/quick-start.md
       - SDK: developers/javascript-sdk.md
@@ -28,24 +40,24 @@ nav:
           - Council: developers/apis/Council.md
           - Democracy: developers/apis/Democracy.md
           - DOL: developers/apis/DOL.md
-          - HDOL: developers/apis/HDOL.md
-          - HDS: developers/apis/HDS.md
-          - HDSDistributor: developers/apis/HDSDistributor.md
-          - HErc20: developers/apis/HErc20.md
-          - HEther: developers/apis/HEther.md
+          - RDOL: developers/apis/RDOL.md
+          - RDS: developers/apis/RDS.md
+          - Distributor: developers/apis/Distributor.md
+          - RERC20: developers/apis/RERC20.md
+          - REther: developers/apis/REther.md
           - InterestRateModel: developers/apis/InterestRateModel.md
           - MarketController: developers/apis/MarketController.md
           - Orchestrator: developers/apis/Orchestrator.md
           - ProtocolReporter: developers/apis/ProtocolReporter.md
           - Supreme: developers/apis/Supreme.md
       - Error Codes: developers/error-codes.md
-      - Liquidation Service: developers/liquidation-service.md
+      - Liquidation Service: developers/indexing-service.md
       - Contracts:
           - Mainnet: contracts/mainnet.md
           - Kovan: contracts/kovan.md
   # - Security:
   #     - Audit: security/audit.md
-  - Governance:
-      - Introduction: governance/index.md
-  - Getting Involved:
-      - Introduction: getting-involved/index.md
+#   - Governance:
+#       - Introduction: governance/index.md
+#   - Getting Involved:
+#       - Introduction: getting-involved/index.md
